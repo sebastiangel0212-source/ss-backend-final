@@ -23,7 +23,7 @@ import com.sebastiangelves.ss.security.JwtUtil;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = {"https://ss-frontend-final.vercel.app", "http://localhost:5173"})
 public class AuthController {
 
     @Autowired

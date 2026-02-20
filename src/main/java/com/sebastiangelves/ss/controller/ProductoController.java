@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController; // <--- ¡Faltaba
 import com.sebastiangelves.ss.model.Producto;
 import com.sebastiangelves.ss.service.ProductoService;
 
-@CrossOrigin(origins = "\"https://ss-frontend-final.vercel.app\", \"http://localhost:5173\"") // Permite la conexión con React
+@CrossOrigin(origins = {"https://ss-frontend-final.vercel.app", "http://localhost:5173"})
 @RestController // <--- ¡ESTO ES VITAL! Sin esto, el API no funciona.
 @RequestMapping("/api/productos")
 public class ProductoController {

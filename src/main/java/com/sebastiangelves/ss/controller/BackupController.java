@@ -17,7 +17,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @RequestMapping("/api/backup")
-@CrossOrigin("*")
+@CrossOrigin(origins = {"https://ss-frontend-final.vercel.app", "http://localhost:5173"})
 public class BackupController {
 
     @Autowired

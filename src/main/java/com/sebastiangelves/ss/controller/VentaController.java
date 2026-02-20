@@ -21,7 +21,7 @@ import com.sebastiangelves.ss.repository.VentaRepository;
 
 @RestController
 @RequestMapping("/api/ventas")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = {"https://ss-frontend-final.vercel.app", "http://localhost:5173"})
 public class VentaController {
 
   @Autowired
