@@ -1,0 +1,59 @@
+Módulo de Autenticación
+1. REGISTRO DE USUARIO
+
+Método: POST
+
+URL: http://localhost:8080/api/auth/register
+
+Descripción: Registra un nuevo usuario en el sistema.
+
+2. INICIO DE SESIÓN
+
+Método: POST
+
+URL: http://localhost:8080/api/auth/login
+
+Descripción: Autentica a un usuario con su username y password.
+
+Módulo de Productos
+Ruta Base: /api/productos
+
+1. OBTENER TODOS LOS PRODUCTOS
+
+Método: GET
+
+URL: http://localhost:8080/api/productos
+
+Descripción: Devuelve una lista de todos los productos en el inventario.
+
+2. OBTENER UN PRODUCTO POR ID
+
+Método: GET
+
+URL: http://localhost:8080/api/productos/{id}
+
+Descripción: Devuelve los detalles de un producto específico.
+
+3. CREAR UN NUEVO PRODUCTO
+
+Método: POST
+
+URL: http://localhost:8080/api/productos
+
+Descripción: Agrega un nuevo producto al inventario.
+
+4. ACTUALIZAR UN PRODUCTO EXISTENTE
+
+Método: PUT
+
+URL: http://localhost:8080/api/productos/{id}
+
+Descripción: Modifica los datos de un producto existente.
+
+5. ELIMINAR UN PRODUCTO
+
+Método: DELETE
+
+URL: http://localhost:8080/api/productos/{id}
+
+Descripción: Elimina un producto del inventario.
