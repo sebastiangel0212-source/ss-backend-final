@@ -3,7 +3,7 @@ Módulo de Autenticación
 
 Método: POST
 
-URL: http://localhost:8080/api/auth/register
+URL: https://ss-backend-final.onrender.com/api/auth/register
 
 Descripción: Registra un nuevo usuario en el sistema.
 
@@ -11,7 +11,7 @@ Descripción: Registra un nuevo usuario en el sistema.
 
 Método: POST
 
-URL: http://localhost:8080/api/auth/login
+URL: https://ss-backend-final.onrender.com/api/auth/login
 
 Descripción: Autentica a un usuario con su username y password.
 
@@ -22,7 +22,7 @@ Ruta Base: /api/productos
 
 Método: GET
 
-URL: http://localhost:8080/api/productos
+URL: https://ss-backend-final.onrender.com/api/productos
 
 Descripción: Devuelve una lista de todos los productos en el inventario.
 
@@ -30,7 +30,7 @@ Descripción: Devuelve una lista de todos los productos en el inventario.
 
 Método: GET
 
-URL: http://localhost:8080/api/productos/{id}
+URL: https://ss-backend-final.onrender.com/api/productos/{id}
 
 Descripción: Devuelve los detalles de un producto específico.
 
@@ -38,7 +38,7 @@ Descripción: Devuelve los detalles de un producto específico.
 
 Método: POST
 
-URL: http://localhost:8080/api/productos
+URL: https://ss-backend-final.onrender.com/api/productos
 
 Descripción: Agrega un nuevo producto al inventario.
 
@@ -46,7 +46,7 @@ Descripción: Agrega un nuevo producto al inventario.
 
 Método: PUT
 
-URL: http://localhost:8080/api/productos/{id}
+URL: https://ss-backend-final.onrender.com/api/productos/{id}
 
 Descripción: Modifica los datos de un producto existente.
 
@@ -54,6 +54,6 @@ Descripción: Modifica los datos de un producto existente.
 
 Método: DELETE
 
-URL: http://localhost:8080/api/productos/{id}
+URL: https://ss-backend-final.onrender.com/api/productos/{id}
 
 Descripción: Elimina un producto del inventario.

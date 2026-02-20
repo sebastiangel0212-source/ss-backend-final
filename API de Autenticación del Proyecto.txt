@@ -4,7 +4,7 @@ API de Autenticación del Proyecto S&S
 
 Método: POST
 
-URL: http://localhost:8080/api/auth/register
+URL: https://ss-backend-final.onrender.com/api/auth/register
 
 Descripción: Registra un nuevo usuario en el sistema.
 
@@ -12,6 +12,6 @@ Descripción: Registra un nuevo usuario en el sistema.
 
 Método: POST
 
-URL: http://localhost:8080/api/auth/login
+URL: https://ss-backend-final.onrender.com/api/auth/login
 
 Descripción: Autentica a un usuario con su username y password.
